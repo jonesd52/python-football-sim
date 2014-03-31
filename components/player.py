@@ -5,13 +5,7 @@ __author__ = 'David'
 class Player:
     def __init__(self, playerName, playerPosition):
         self.name = playerName
+        """May want to use this as an array of positions, to allow players to play
+           at multiple positions with no penalty."""
         self.position = playerPosition
-
-    def getName(self):
-        return self.name
-
-    """May want to make this an array of positions, to allow players to play
-    at multiple positions with no penalty."""
-    def getPosition(self):
-        return self.position
 
